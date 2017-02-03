@@ -174,7 +174,7 @@ typedef NS_OPTIONS(NSUInteger, MZFormSheetPanGestureDismissDirection) {
 UINavigationController *navigationController = [self formSheetControllerWithNavigationController];
 MZFormSheetPresentationViewController *formSheetController = [[MZFormSheetPresentationViewController alloc] initWithContentViewController:navigationController];
 
-formSheetController.interactivePanGestureDissmisalDirection = MZFormSheetPanGestureDismissDirectionAll;
+formSheetController.interactivePanGestureDismissalDirection = MZFormSheetPanGestureDismissDirectionAll;
 
 [self presentViewController:formSheetController animated:YES completion:nil];
 
